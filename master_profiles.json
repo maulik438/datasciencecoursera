@@ -1,0 +1,3148 @@
+{
+  "profiles": {
+    "adults_025_male_rural": {
+      "filters": {
+        "gender": "male",
+        "age": "0-25",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_025_male_rural": {
+      "filters": {
+        "gender": "male",
+        "age": "0-25",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_025_male_urban": {
+      "filters": {
+        "gender": "male",
+        "age": "0-25",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_025_male_urban": {
+      "filters": {
+        "gender": "male",
+        "age": "0-25",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_025_female_rural": {
+      "filters": {
+        "gender": "female",
+        "age": "0-25",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_025_female_rural": {
+      "filters": {
+        "gender": "female",
+        "age": "0-25",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_025_female_urban": {
+      "filters": {
+        "gender": "female",
+        "age": "0-25",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_025_female_urban": {
+      "filters": {
+        "gender": "female",
+        "age": "0-25",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_2550_male_rural": {
+      "filters": {
+        "gender": "male",
+        "age": "25-50",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_2550_male_rural": {
+      "filters": {
+        "gender": "male",
+        "age": "25-50",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_2550_male_urban": {
+      "filters": {
+        "gender": "male",
+        "age": "25-50",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_2550_male_urban": {
+      "filters": {
+        "gender": "male",
+        "age": "25-50",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_2550_female_rural": {
+      "filters": {
+        "gender": "female",
+        "age": "25-50",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_2550_female_rural": {
+      "filters": {
+        "gender": "female",
+        "age": "25-50",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_2550_female_urban": {
+      "filters": {
+        "gender": "female",
+        "age": "25-50",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_2550_female_urban": {
+      "filters": {
+        "gender": "female",
+        "age": "25-50",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_50up_male_rural": {
+      "filters": {
+        "gender": "male",
+        "age": "50+",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_50up_male_rural": {
+      "filters": {
+        "gender": "male",
+        "age": "50+",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_50up_male_urban": {
+      "filters": {
+        "gender": "male",
+        "age": "50+",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_50up_male_urban": {
+      "filters": {
+        "gender": "male",
+        "age": "50+",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_50up_female_rural": {
+      "filters": {
+        "gender": "female",
+        "age": "50+",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_50up_female_rural": {
+      "filters": {
+        "gender": "female",
+        "age": "50+",
+        "city_pop": {
+          "max": 2499
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    },
+    "adults_50up_female_urban": {
+      "filters": {
+        "gender": "female",
+        "age": "50+",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 1,
+          "max": 5
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          }
+        },
+        "shopping_time": {
+          "AM": 40,
+          "PM": 60
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 2000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 40,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60
+        },
+        "device_type_wt": {
+          "mobile_app": 200,
+          "desktop_web": 120,
+          "pos_terminal": 120,
+          "atm": 30
+        },
+        "payment_method_wt": {
+          "credit_card": 150,
+          "debit_card": 150,
+          "digital_wallet": 150,
+          "bank_transfer": 50
+        }
+      }
+    },
+    "fraud_adults_50up_female_urban": {
+      "filters": {
+        "gender": "female",
+        "age": "50+",
+        "city_pop": {
+          "min": 2500
+        }
+      },
+      "config": {
+        "avg_transactions_per_day": {
+          "min": 5,
+          "max": 20
+        },
+        "date_wt": {
+          "day_of_week": {
+            "monday": 80,
+            "tuesday": 90,
+            "wednesday": 100,
+            "thursday": 110,
+            "friday": 150,
+            "saturday": 180,
+            "sunday": 150
+          },
+          "time_of_year": {
+            "holidays": {
+              "start_date (MM-DD)": "11-15",
+              "end_date (MM-DD)": "12-31",
+              "weight": 200
+            },
+            "summer": {
+              "start_date (MM-DD)": "06-01",
+              "end_date (MM-DD)": "08-31",
+              "weight": 150
+            }
+          },
+          "year": {
+            "0": 100,
+            "1": 110,
+            "2": 120,
+            "3": 130
+          },
+          "monthly_trend": {
+            "01": 110,
+            "02": 120,
+            "03": 130,
+            "04": 140,
+            "05": 150,
+            "06": 100,
+            "07": 110,
+            "08": 120,
+            "09": 130,
+            "10": 140,
+            "11": 150,
+            "12": 100
+          }
+        },
+        "categories_wt": {
+          "grocery_pos": 120,
+          "shopping_pos": 150,
+          "shopping_net": 120,
+          "entertainment": 100,
+          "food_dining": 120,
+          "travel": 80,
+          "health_fitness": 70,
+          "luxury_goods": 200,
+          "electronics": 180,
+          "crypto_exchange": 100
+        },
+        "categories_amt": {
+          "grocery_pos": {
+            "mean": 90,
+            "stdev": 20
+          },
+          "shopping_pos": {
+            "mean": 150,
+            "stdev": 100
+          },
+          "shopping_net": {
+            "mean": 120,
+            "stdev": 80
+          },
+          "entertainment": {
+            "mean": 100,
+            "stdev": 60
+          },
+          "food_dining": {
+            "mean": 60,
+            "stdev": 40
+          },
+          "travel": {
+            "mean": 500,
+            "stdev": 1500
+          },
+          "health_fitness": {
+            "mean": 50,
+            "stdev": 20
+          },
+          "luxury_goods": {
+            "mean": 2500,
+            "stdev": 1000
+          },
+          "electronics": {
+            "mean": 1500,
+            "stdev": 800
+          },
+          "crypto_exchange": {
+            "mean": 1000,
+            "stdev": 500
+          }
+        },
+        "shopping_time": {
+          "AM": 30,
+          "PM": 70
+        },
+        "travel_pct": 10,
+        "travel_max_dist": 4000,
+        "merchant_type_wt": {
+          "supermarket": 150,
+          "fast_food": 100,
+          "luxury_brand": 200,
+          "electronics": 120,
+          "online_marketplace": 180,
+          "fitness_center": 60,
+          "crypto_exchange": 150
+        },
+        "device_type_wt": {
+          "mobile_app": 300,
+          "desktop_web": 120,
+          "pos_terminal": 80,
+          "atm": 10
+        },
+        "payment_method_wt": {
+          "digital_wallet": 300,
+          "prepaid_card": 150,
+          "credit_card": 100,
+          "bank_transfer": 20
+        }
+      }
+    }
+  }
+}
