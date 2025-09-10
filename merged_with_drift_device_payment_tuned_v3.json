@@ -1,0 +1,3942 @@
+[
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 12
+        },
+        "name": "adults_2550_female_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 125,
+                "saturday": 150,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 225,
+            "grocery_net": 50,
+            "grocery_pos": 150,
+            "misc_net": 75,
+            "misc_pos": 100,
+            "shopping_net": 110,
+            "shopping_pos": 150,
+            "entertainment": 90,
+            "food_dining": 100,
+            "health_fitness": 90,
+            "home": 150,
+            "kids_pets": 135,
+            "personal_care": 125,
+            "travel": 35
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 50.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 100.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 60.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 50.0,
+                "stdev": 300.0
+            },
+            "shopping_pos": {
+                "mean": 50.0,
+                "stdev": 250.0
+            },
+            "entertainment": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "food_dining": {
+                "mean": 30.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 45.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 50.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 62,
+            "desktop_web": 14,
+            "pos_terminal": 24
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 30,
+            "digital_wallet": 33
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 15
+        },
+        "name": "adults_2550_female_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 72,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 180,
+                "saturday": 227,
+                "sunday": 227
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 50,
+            "grocery_net": 100,
+            "grocery_pos": 150,
+            "misc_net": 75,
+            "misc_pos": 100,
+            "shopping_net": 180,
+            "shopping_pos": 175,
+            "entertainment": 120,
+            "food_dining": 110,
+            "health_fitness": 100,
+            "home": 120,
+            "kids_pets": 135,
+            "personal_care": 125,
+            "travel": 35
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 70.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 60.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 200.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 100.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 80.0,
+                "stdev": 100.0
+            },
+            "shopping_net": {
+                "mean": 120.0,
+                "stdev": 240.0
+            },
+            "shopping_pos": {
+                "mean": 100.0,
+                "stdev": 225.0
+            },
+            "entertainment": {
+                "mean": 120.0,
+                "stdev": 90.0
+            },
+            "food_dining": {
+                "mean": 60.0,
+                "stdev": 40.0
+            },
+            "health_fitness": {
+                "mean": 60.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 48.0,
+                "stdev": 40.0
+            },
+            "kids_pets": {
+                "mean": 60.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 55.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 60.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 56,
+            "desktop_web": 14,
+            "pos_terminal": 30
+        },
+        "payment_method_wt": {
+            "credit_card": 40,
+            "debit_card": 36,
+            "digital_wallet": 24
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 12
+        },
+        "name": "adults_2550_male_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 125,
+                "saturday": 150,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 50,
+            "grocery_net": 50,
+            "grocery_pos": 150,
+            "misc_net": 30,
+            "misc_pos": 100,
+            "shopping_net": 100,
+            "shopping_pos": 100,
+            "entertainment": 105,
+            "food_dining": 100,
+            "health_fitness": 90,
+            "home": 150,
+            "kids_pets": 110,
+            "personal_care": 50,
+            "travel": 45
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 70.0,
+                "stdev": 5.0
+            },
+            "grocery_net": {
+                "mean": 50.0,
+                "stdev": 5.0
+            },
+            "grocery_pos": {
+                "mean": 100.0,
+                "stdev": 10.0
+            },
+            "misc_net": {
+                "mean": 100.0,
+                "stdev": 20.0
+            },
+            "misc_pos": {
+                "mean": 35.0,
+                "stdev": 5.0
+            },
+            "shopping_net": {
+                "mean": 95.0,
+                "stdev": 10.0
+            },
+            "shopping_pos": {
+                "mean": 135.0,
+                "stdev": 12.0
+            },
+            "entertainment": {
+                "mean": 75.0,
+                "stdev": 7.0
+            },
+            "food_dining": {
+                "mean": 60.0,
+                "stdev": 6.0
+            },
+            "health_fitness": {
+                "mean": 75.0,
+                "stdev": 2.0
+            },
+            "home": {
+                "mean": 80.0,
+                "stdev": 8.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 5.0
+            },
+            "personal_care": {
+                "mean": 75.0,
+                "stdev": 5.0
+            },
+            "travel": {
+                "mean": 500.0,
+                "stdev": 50.0
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 52,
+            "desktop_web": 24,
+            "pos_terminal": 24
+        },
+        "payment_method_wt": {
+            "credit_card": 49,
+            "debit_card": 35,
+            "digital_wallet": 16
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 15
+        },
+        "name": "adults_2550_male_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 72,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 195,
+                "sunday": 195
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 150,
+            "grocery_net": 80,
+            "grocery_pos": 150,
+            "misc_net": 75,
+            "misc_pos": 100,
+            "shopping_net": 120,
+            "shopping_pos": 125,
+            "entertainment": 132,
+            "food_dining": 110,
+            "health_fitness": 100,
+            "home": 120,
+            "kids_pets": 110,
+            "personal_care": 75,
+            "travel": 45
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 70.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 50.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 60.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 60.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 72.0,
+                "stdev": 360.0
+            },
+            "shopping_pos": {
+                "mean": 60.0,
+                "stdev": 300.0
+            },
+            "entertainment": {
+                "mean": 72.0,
+                "stdev": 90.0
+            },
+            "food_dining": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 60.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 48.0,
+                "stdev": 40.0
+            },
+            "kids_pets": {
+                "mean": 60.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 35.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 60.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 52,
+            "desktop_web": 14,
+            "pos_terminal": 34
+        },
+        "payment_method_wt": {
+            "credit_card": 41,
+            "debit_card": 41,
+            "digital_wallet": 18
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 0,
+            "max": 8
+        },
+        "name": "adults_50up_female_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 96,
+                "tuesday": 99,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 140,
+                "sunday": 140
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 225,
+            "grocery_net": 15,
+            "grocery_pos": 180,
+            "misc_net": 100,
+            "misc_pos": 65,
+            "shopping_net": 87,
+            "shopping_pos": 110,
+            "entertainment": 120,
+            "food_dining": 90,
+            "health_fitness": 125,
+            "home": 180,
+            "kids_pets": 150,
+            "personal_care": 120,
+            "travel": 60
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 50.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 156.0,
+                "stdev": 24.0
+            },
+            "misc_net": {
+                "mean": 60.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 34.8,
+                "stdev": 104.4
+            },
+            "shopping_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "entertainment": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "food_dining": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 60.0,
+                "stdev": 60.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 60.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 40,
+            "afternoon": 40,
+            "evening": 15,
+            "late_night": 5
+        },
+        "travel_pct": 20,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 26,
+            "desktop_web": 34,
+            "pos_terminal": 40
+        },
+        "payment_method_wt": {
+            "credit_card": 45,
+            "debit_card": 41,
+            "digital_wallet": 14
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 10
+        },
+        "name": "adults_50up_female_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 175,
+                "sunday": 175
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 150,
+            "grocery_net": 25,
+            "grocery_pos": 150,
+            "misc_net": 50,
+            "misc_pos": 100,
+            "shopping_net": 75,
+            "shopping_pos": 150,
+            "entertainment": 115,
+            "food_dining": 120,
+            "health_fitness": 80,
+            "home": 150,
+            "kids_pets": 150,
+            "personal_care": 120,
+            "travel": 60
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 70.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 90.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 90.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 55.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 60.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 80.0,
+                "stdev": 200.0
+            },
+            "shopping_pos": {
+                "mean": 45.0,
+                "stdev": 200.0
+            },
+            "entertainment": {
+                "mean": 50.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 80.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 60.0,
+                "stdev": 50.0
+            },
+            "kids_pets": {
+                "mean": 80.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 45.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 60.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 30,
+            "afternoon": 40,
+            "evening": 25,
+            "late_night": 5
+        },
+        "travel_pct": 25,
+        "travel_max_dist": 800,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 54,
+            "desktop_web": 15,
+            "pos_terminal": 31
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 36,
+            "digital_wallet": 26
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 0,
+            "max": 8
+        },
+        "name": "adults_50up_male_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 96,
+                "tuesday": 99,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 140,
+                "sunday": 140
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 225,
+            "grocery_net": 15,
+            "grocery_pos": 180,
+            "misc_net": 100,
+            "misc_pos": 65,
+            "shopping_net": 87,
+            "shopping_pos": 110,
+            "entertainment": 120,
+            "food_dining": 90,
+            "health_fitness": 125,
+            "home": 180,
+            "kids_pets": 150,
+            "personal_care": 120,
+            "travel": 60
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 50.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 156.0,
+                "stdev": 24.0
+            },
+            "misc_net": {
+                "mean": 60.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 34.8,
+                "stdev": 104.4
+            },
+            "shopping_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "entertainment": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "food_dining": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 60.0,
+                "stdev": 60.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 60.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 40,
+            "afternoon": 40,
+            "evening": 15,
+            "late_night": 5
+        },
+        "travel_pct": 20,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 30,
+            "desktop_web": 15,
+            "pos_terminal": 56
+        },
+        "payment_method_wt": {
+            "credit_card": 34,
+            "debit_card": 58,
+            "digital_wallet": 8
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 10
+        },
+        "name": "adults_50up_male_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 175,
+                "sunday": 175
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 150,
+            "grocery_net": 25,
+            "grocery_pos": 150,
+            "misc_net": 50,
+            "misc_pos": 100,
+            "shopping_net": 75,
+            "shopping_pos": 150,
+            "entertainment": 115,
+            "food_dining": 120,
+            "health_fitness": 80,
+            "home": 150,
+            "kids_pets": 150,
+            "personal_care": 120,
+            "travel": 60
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 70.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 90.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 90.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 55.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 60.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 80.0,
+                "stdev": 200.0
+            },
+            "shopping_pos": {
+                "mean": 45.0,
+                "stdev": 200.0
+            },
+            "entertainment": {
+                "mean": 50.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 80.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 60.0,
+                "stdev": 50.0
+            },
+            "kids_pets": {
+                "mean": 80.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 45.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 60.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 30,
+            "afternoon": 40,
+            "evening": 25,
+            "late_night": 5
+        },
+        "travel_pct": 25,
+        "travel_max_dist": 800,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 44,
+            "desktop_web": 25,
+            "pos_terminal": 31
+        },
+        "payment_method_wt": {
+            "credit_card": 48,
+            "debit_card": 40,
+            "digital_wallet": 12
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 17
+        },
+        "name": "fraud_adults_2550_female_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 125,
+                "saturday": 150,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 95,
+            "grocery_net": 10,
+            "grocery_pos": 200,
+            "misc_net": 75,
+            "misc_pos": 100,
+            "shopping_net": 200,
+            "shopping_pos": 200,
+            "entertainment": 90,
+            "food_dining": 100,
+            "health_fitness": 90,
+            "home": 150,
+            "kids_pets": 135,
+            "personal_care": 125,
+            "travel": 35
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 8.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 350.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "shopping_net": {
+                "mean": 1000.0,
+                "stdev": 150.0
+            },
+            "shopping_pos": {
+                "mean": 900.0,
+                "stdev": 180.0
+            },
+            "entertainment": {
+                "mean": 500.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 250.0,
+                "stdev": 37.5
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1400,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 43,
+            "desktop_web": 14,
+            "pos_terminal": 43
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 51,
+            "digital_wallet": 12
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 20
+        },
+        "name": "fraud_adults_2550_female_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 72,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 180,
+                "saturday": 227,
+                "sunday": 227
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 50,
+            "grocery_net": 10,
+            "grocery_pos": 150,
+            "misc_net": 75,
+            "misc_pos": 100,
+            "shopping_net": 180,
+            "shopping_pos": 175,
+            "entertainment": 120,
+            "food_dining": 110,
+            "health_fitness": 100,
+            "home": 120,
+            "kids_pets": 135,
+            "personal_care": 125,
+            "travel": 35
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 12.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 350.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1200.0,
+                "stdev": 180.0
+            },
+            "shopping_pos": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 600.0,
+                "stdev": 90.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 200.0,
+                "stdev": 30.0
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 50,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 48,
+            "desktop_web": 31,
+            "pos_terminal": 21
+        },
+        "payment_method_wt": {
+            "credit_card": 45,
+            "debit_card": 22,
+            "digital_wallet": 33
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 17
+        },
+        "name": "fraud_adults_2550_male_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 125,
+                "saturday": 150,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 25,
+            "grocery_pos": 300,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 300,
+            "shopping_pos": 100,
+            "entertainment": 20,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 5,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1000.0,
+                "stdev": 150.0
+            },
+            "shopping_pos": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 500.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 250.0,
+                "stdev": 37.5
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1400,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 62,
+            "desktop_web": 14,
+            "pos_terminal": 24
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 30,
+            "digital_wallet": 33
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 20
+        },
+        "name": "fraud_adults_2550_male_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 72,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 195,
+                "sunday": 195
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 25,
+            "grocery_pos": 300,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 360,
+            "shopping_pos": 100,
+            "entertainment": 24,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 4,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1200.0,
+                "stdev": 180.0
+            },
+            "shopping_pos": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 600.0,
+                "stdev": 90.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 200.0,
+                "stdev": 30.0
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 50,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 56,
+            "desktop_web": 14,
+            "pos_terminal": 30
+        },
+        "payment_method_wt": {
+            "credit_card": 40,
+            "debit_card": 36,
+            "digital_wallet": 24
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 0,
+            "max": 13
+        },
+        "name": "fraud_adults_50up_female_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 96,
+                "tuesday": 99,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 140,
+                "sunday": 140
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 90,
+            "grocery_net": 35,
+            "grocery_pos": 360,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 199,
+            "shopping_pos": 115,
+            "entertainment": 30,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 6,
+            "kids_pets": 15,
+            "personal_care": 35,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 15.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 390.0,
+                "stdev": 36.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 698.25,
+                "stdev": 104.74
+            },
+            "shopping_pos": {
+                "mean": 825.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 600.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 480.0,
+                "stdev": 45.0
+            },
+            "kids_pets": {
+                "mean": 5.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 50.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 1.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 40,
+            "afternoon": 40,
+            "evening": 15,
+            "late_night": 5
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 35,
+            "desktop_web": 27,
+            "pos_terminal": 38
+        },
+        "payment_method_wt": {
+            "credit_card": 47,
+            "debit_card": 45,
+            "digital_wallet": 8
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 15
+        },
+        "name": "fraud_adults_50up_female_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 175,
+                "sunday": 175
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 15,
+            "grocery_pos": 275,
+            "misc_net": 165,
+            "misc_pos": 25,
+            "shopping_net": 280,
+            "shopping_pos": 150,
+            "entertainment": 22,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 5,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1000.0,
+                "stdev": 135.0
+            },
+            "shopping_pos": {
+                "mean": 950.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 400.0,
+                "stdev": 60.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 250.0,
+                "stdev": 37.5
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 30,
+            "afternoon": 40,
+            "evening": 25,
+            "late_night": 5
+        },
+        "travel_pct": 35,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 34,
+            "desktop_web": 14,
+            "pos_terminal": 52
+        },
+        "payment_method_wt": {
+            "credit_card": 34,
+            "debit_card": 57,
+            "digital_wallet": 9
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 0,
+            "max": 13
+        },
+        "name": "fraud_adults_50up_male_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 96,
+                "tuesday": 99,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 140,
+                "sunday": 140
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 90,
+            "grocery_net": 35,
+            "grocery_pos": 360,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 199,
+            "shopping_pos": 115,
+            "entertainment": 30,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 6,
+            "kids_pets": 15,
+            "personal_care": 35,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 15.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 390.0,
+                "stdev": 36.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 698.25,
+                "stdev": 104.74
+            },
+            "shopping_pos": {
+                "mean": 825.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 600.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 480.0,
+                "stdev": 45.0
+            },
+            "kids_pets": {
+                "mean": 5.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 50.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 1.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 40,
+            "afternoon": 40,
+            "evening": 15,
+            "late_night": 5
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 26,
+            "desktop_web": 34,
+            "pos_terminal": 40
+        },
+        "payment_method_wt": {
+            "credit_card": 45,
+            "debit_card": 41,
+            "digital_wallet": 14
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 15
+        },
+        "name": "fraud_adults_50up_male_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 90,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 150,
+                "saturday": 175,
+                "sunday": 175
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 15,
+            "grocery_pos": 275,
+            "misc_net": 165,
+            "misc_pos": 25,
+            "shopping_net": 280,
+            "shopping_pos": 150,
+            "entertainment": 22,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 5,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1000.0,
+                "stdev": 135.0
+            },
+            "shopping_pos": {
+                "mean": 950.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 400.0,
+                "stdev": 60.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 250.0,
+                "stdev": 37.5
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 30,
+            "afternoon": 40,
+            "evening": 25,
+            "late_night": 5
+        },
+        "travel_pct": 35,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 54,
+            "desktop_web": 15,
+            "pos_terminal": 31
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 36,
+            "digital_wallet": 26
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 17
+        },
+        "name": "fraud_leftovers",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 100,
+                "tuesday": 100,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 125,
+                "saturday": 175,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "food_dining": 100,
+            "health_fitness": 100
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60,
+                "stdev": 15
+            },
+            "grocery_net": {
+                "mean": 40,
+                "stdev": 20
+            },
+            "grocery_pos": {
+                "mean": 50,
+                "stdev": 20
+            },
+            "misc_net": {
+                "mean": 50,
+                "stdev": 150
+            },
+            "misc_pos": {
+                "mean": 50,
+                "stdev": 150
+            },
+            "shopping_net": {
+                "mean": 50,
+                "stdev": 300
+            },
+            "shopping_pos": {
+                "mean": 50,
+                "stdev": 300
+            },
+            "entertainment": {
+                "mean": 50,
+                "stdev": 50
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 75.0
+            },
+            "health_fitness": {
+                "mean": 200.0,
+                "stdev": 75.0
+            },
+            "home": {
+                "mean": 50,
+                "stdev": 50
+            },
+            "kids_pets": {
+                "mean": 50,
+                "stdev": 50
+            },
+            "personal_care": {
+                "mean": 25,
+                "stdev": 50
+            },
+            "travel": {
+                "mean": 50,
+                "stdev": 600
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1400,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 47,
+            "desktop_web": 14,
+            "pos_terminal": 38
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 46,
+            "digital_wallet": 17
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 17
+        },
+        "name": "fraud_young_adults_female_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 80,
+                "wednesday": 80,
+                "thursday": 80,
+                "friday": 200,
+                "saturday": 250,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 25,
+            "grocery_pos": 300,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 300,
+            "shopping_pos": 100,
+            "entertainment": 20,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 5,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1000.0,
+                "stdev": 150.0
+            },
+            "shopping_pos": {
+                "mean": 1200.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 500.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 250.0,
+                "stdev": 37.5
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1400,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 52,
+            "desktop_web": 24,
+            "pos_terminal": 24
+        },
+        "payment_method_wt": {
+            "credit_card": 49,
+            "debit_card": 35,
+            "digital_wallet": 16
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 20
+        },
+        "name": "fraud_young_adults_female_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 54,
+                "tuesday": 70,
+                "wednesday": 80,
+                "thursday": 90,
+                "friday": 216,
+                "saturday": 325,
+                "sunday": 227
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 25,
+            "grocery_pos": 300,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 360,
+            "shopping_pos": 100,
+            "entertainment": 24,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 4,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1200.0,
+                "stdev": 180.0
+            },
+            "shopping_pos": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 600.0,
+                "stdev": 90.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 200.0,
+                "stdev": 30.0
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 50,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 52,
+            "desktop_web": 14,
+            "pos_terminal": 34
+        },
+        "payment_method_wt": {
+            "credit_card": 41,
+            "debit_card": 41,
+            "digital_wallet": 18
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 17
+        },
+        "name": "fraud_young_adults_male_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 80,
+                "wednesday": 80,
+                "thursday": 80,
+                "friday": 200,
+                "saturday": 250,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 25,
+            "grocery_pos": 300,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 300,
+            "shopping_pos": 100,
+            "entertainment": 20,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 5,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1000.0,
+                "stdev": 150.0
+            },
+            "shopping_pos": {
+                "mean": 1200.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 500.0,
+                "stdev": 75.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 250.0,
+                "stdev": 37.5
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1400,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 41,
+            "desktop_web": 32,
+            "pos_terminal": 27
+        },
+        "payment_method_wt": {
+            "credit_card": 45,
+            "debit_card": 30,
+            "digital_wallet": 25
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 20
+        },
+        "name": "fraud_young_adults_male_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 54,
+                "tuesday": 70,
+                "wednesday": 80,
+                "thursday": 90,
+                "friday": 216,
+                "saturday": 325,
+                "sunday": 227
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 25,
+            "grocery_pos": 300,
+            "misc_net": 155,
+            "misc_pos": 25,
+            "shopping_net": 360,
+            "shopping_pos": 100,
+            "entertainment": 24,
+            "food_dining": 10,
+            "health_fitness": 5,
+            "home": 4,
+            "kids_pets": 10,
+            "personal_care": 15,
+            "travel": 15
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_net": {
+                "mean": 10.0,
+                "stdev": 3.0
+            },
+            "grocery_pos": {
+                "mean": 300.0,
+                "stdev": 30.0
+            },
+            "misc_net": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "misc_pos": {
+                "mean": 8.0,
+                "stdev": 1.5
+            },
+            "shopping_net": {
+                "mean": 1200.0,
+                "stdev": 180.0
+            },
+            "shopping_pos": {
+                "mean": 800.0,
+                "stdev": 120.0
+            },
+            "entertainment": {
+                "mean": 600.0,
+                "stdev": 90.0
+            },
+            "food_dining": {
+                "mean": 120.0,
+                "stdev": 18.0
+            },
+            "health_fitness": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "home": {
+                "mean": 200.0,
+                "stdev": 30.0
+            },
+            "kids_pets": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "personal_care": {
+                "mean": 20.0,
+                "stdev": 3.0
+            },
+            "travel": {
+                "mean": 10.0,
+                "stdev": 1.5
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 50,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 69,
+            "desktop_web": 13,
+            "pos_terminal": 18
+        },
+        "payment_method_wt": {
+            "credit_card": 36,
+            "debit_card": 21,
+            "digital_wallet": 43
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 12
+        },
+        "name": "leftovers",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 100,
+                "tuesday": 100,
+                "wednesday": 100,
+                "thursday": 100,
+                "friday": 125,
+                "saturday": 175,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 100,
+            "grocery_net": 100,
+            "grocery_pos": 100,
+            "misc_net": 100,
+            "misc_pos": 100,
+            "shopping_net": 100,
+            "shopping_pos": 100,
+            "entertainment": 100,
+            "food_dining": 100,
+            "health_fitness": 100,
+            "home": 100,
+            "kids_pets": 100,
+            "personal_care": 100,
+            "travel": 100
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 40.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 50.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 50.0,
+                "stdev": 300.0
+            },
+            "shopping_pos": {
+                "mean": 50.0,
+                "stdev": 300.0
+            },
+            "entertainment": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "food_dining": {
+                "mean": 30.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 25.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 50.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 47,
+            "desktop_web": 14,
+            "pos_terminal": 38
+        },
+        "payment_method_wt": {
+            "credit_card": 37,
+            "debit_card": 46,
+            "digital_wallet": 17
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 12
+        },
+        "name": "young_adults_female_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 80,
+                "wednesday": 80,
+                "thursday": 80,
+                "friday": 200,
+                "saturday": 250,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 150,
+            "grocery_net": 80,
+            "grocery_pos": 50,
+            "misc_net": 100,
+            "misc_pos": 100,
+            "shopping_net": 100,
+            "shopping_pos": 100,
+            "entertainment": 130,
+            "food_dining": 140,
+            "health_fitness": 110,
+            "home": 50,
+            "kids_pets": 75,
+            "personal_care": 100,
+            "travel": 35
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 30.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 60.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 120.0,
+                "stdev": 60.0
+            },
+            "misc_pos": {
+                "mean": 140.0,
+                "stdev": 90.0
+            },
+            "shopping_net": {
+                "mean": 90.0,
+                "stdev": 120.0
+            },
+            "shopping_pos": {
+                "mean": 150.0,
+                "stdev": 35.0
+            },
+            "entertainment": {
+                "mean": 90.0,
+                "stdev": 30.0
+            },
+            "food_dining": {
+                "mean": 20.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 35.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 40.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 52,
+            "desktop_web": 24,
+            "pos_terminal": 24
+        },
+        "payment_method_wt": {
+            "credit_card": 49,
+            "debit_card": 35,
+            "digital_wallet": 16
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 15
+        },
+        "name": "young_adults_female_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 54,
+                "tuesday": 70,
+                "wednesday": 80,
+                "thursday": 90,
+                "friday": 216,
+                "saturday": 325,
+                "sunday": 227
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 200,
+            "grocery_net": 60,
+            "grocery_pos": 75,
+            "misc_net": 80,
+            "misc_pos": 100,
+            "shopping_net": 150,
+            "shopping_pos": 150,
+            "entertainment": 144,
+            "food_dining": 120,
+            "health_fitness": 100,
+            "home": 68,
+            "kids_pets": 125,
+            "personal_care": 100,
+            "travel": 55
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 40.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 70.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 60.0,
+                "stdev": 360.0
+            },
+            "shopping_pos": {
+                "mean": 50.0,
+                "stdev": 300.0
+            },
+            "entertainment": {
+                "mean": 60.0,
+                "stdev": 60.0
+            },
+            "food_dining": {
+                "mean": 30.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 40.0,
+                "stdev": 40.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 35.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 50.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 52,
+            "desktop_web": 14,
+            "pos_terminal": 34
+        },
+        "payment_method_wt": {
+            "credit_card": 41,
+            "debit_card": 41,
+            "digital_wallet": 18
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 1,
+            "max": 12
+        },
+        "name": "young_adults_male_rural",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 80,
+                "tuesday": 80,
+                "wednesday": 80,
+                "thursday": 80,
+                "friday": 200,
+                "saturday": 250,
+                "sunday": 150
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 144,
+                "6": 156,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 150,
+                "12": 170
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 150,
+            "grocery_net": 80,
+            "grocery_pos": 50,
+            "misc_net": 100,
+            "misc_pos": 100,
+            "shopping_net": 100,
+            "shopping_pos": 100,
+            "entertainment": 130,
+            "food_dining": 140,
+            "health_fitness": 110,
+            "home": 50,
+            "kids_pets": 75,
+            "personal_care": 100,
+            "travel": 35
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 30.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 60.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 120.0,
+                "stdev": 60.0
+            },
+            "misc_pos": {
+                "mean": 140.0,
+                "stdev": 90.0
+            },
+            "shopping_net": {
+                "mean": 90.0,
+                "stdev": 120.0
+            },
+            "shopping_pos": {
+                "mean": 150.0,
+                "stdev": 35.0
+            },
+            "entertainment": {
+                "mean": 90.0,
+                "stdev": 30.0
+            },
+            "food_dining": {
+                "mean": 20.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 40.0,
+                "stdev": 50.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 35.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 40.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 25,
+            "afternoon": 35,
+            "evening": 30,
+            "late_night": 10
+        },
+        "travel_pct": 30,
+        "travel_max_dist": 1200,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 41,
+            "desktop_web": 32,
+            "pos_terminal": 27
+        },
+        "payment_method_wt": {
+            "credit_card": 45,
+            "debit_card": 30,
+            "digital_wallet": 25
+        }
+    },
+    {
+        "avg_transactions_per_day": {
+            "min": 2,
+            "max": 15
+        },
+        "name": "young_adults_male_urban",
+        "date_wt": {
+            "day_of_week": {
+                "monday": 54,
+                "tuesday": 70,
+                "wednesday": 80,
+                "thursday": 90,
+                "friday": 216,
+                "saturday": 325,
+                "sunday": 227
+            },
+            "time_of_year": {
+                "holidays": {
+                    "start_date (MM-DD)": "11-30",
+                    "end_date (MM-DD)": "12-31",
+                    "weight": 200
+                },
+                "post_holidays": {
+                    "start_date (MM-DD)": "1-1",
+                    "end_date (MM-DD)": "02-28",
+                    "weight": 75
+                },
+                "summer": {
+                    "start_date (MM-DD)": "05-24",
+                    "end_date (MM-DD)": "09-01",
+                    "weight": 125
+                }
+            },
+            "year": {
+                "0": 100,
+                "1": 110,
+                "2": 125,
+                "3": 90
+            },
+            "month": {
+                "1": 90,
+                "2": 95,
+                "3": 100,
+                "4": 110,
+                "5": 120,
+                "6": 130,
+                "7": 125,
+                "8": 115,
+                "9": 95,
+                "10": 110,
+                "11": 180,
+                "12": 204
+            }
+        },
+        "categories_wt": {
+            "gas_transport": 200,
+            "grocery_net": 60,
+            "grocery_pos": 75,
+            "misc_net": 80,
+            "misc_pos": 100,
+            "shopping_net": 150,
+            "shopping_pos": 150,
+            "entertainment": 144,
+            "food_dining": 120,
+            "health_fitness": 100,
+            "home": 68,
+            "kids_pets": 125,
+            "personal_care": 100,
+            "travel": 55
+        },
+        "categories_amt": {
+            "gas_transport": {
+                "mean": 60.0,
+                "stdev": 15.0
+            },
+            "grocery_net": {
+                "mean": 40.0,
+                "stdev": 20.0
+            },
+            "grocery_pos": {
+                "mean": 70.0,
+                "stdev": 20.0
+            },
+            "misc_net": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "misc_pos": {
+                "mean": 50.0,
+                "stdev": 150.0
+            },
+            "shopping_net": {
+                "mean": 60.0,
+                "stdev": 360.0
+            },
+            "shopping_pos": {
+                "mean": 50.0,
+                "stdev": 300.0
+            },
+            "entertainment": {
+                "mean": 60.0,
+                "stdev": 60.0
+            },
+            "food_dining": {
+                "mean": 30.0,
+                "stdev": 50.0
+            },
+            "health_fitness": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "home": {
+                "mean": 40.0,
+                "stdev": 40.0
+            },
+            "kids_pets": {
+                "mean": 50.0,
+                "stdev": 50.0
+            },
+            "personal_care": {
+                "mean": 35.0,
+                "stdev": 50.0
+            },
+            "travel": {
+                "mean": 50.0,
+                "stdev": 600.0
+            }
+        },
+        "shopping_time": {
+            "morning": 15,
+            "afternoon": 20,
+            "evening": 45,
+            "late_night": 20
+        },
+        "travel_pct": 40,
+        "travel_max_dist": 1000,
+        "data_quality": {
+            "missing_values_pct": 1.0,
+            "duplicate_pct": 0.5,
+            "delayed_timestamps_pct": 0.5
+        },
+        "device_type_wt": {
+            "mobile_app": 69,
+            "desktop_web": 13,
+            "pos_terminal": 18
+        },
+        "payment_method_wt": {
+            "credit_card": 36,
+            "debit_card": 21,
+            "digital_wallet": 43
+        }
+    }
+]
